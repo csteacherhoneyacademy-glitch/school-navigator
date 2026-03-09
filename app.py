@@ -41,8 +41,8 @@ with tab1:
                 st.write("Вчитель:", room["teacher"])
                 st.write("Опис:", room["description"])
 
-               # if room["photo"] != "":
-                #    st.image(room["photo"], width=300)
+                if room["photo"] != "":
+                    st.image(room["photo"], width=300)
 
                 found = True
 
@@ -95,4 +95,5 @@ with tab2:
                                 st.image(room_info["photo"], width=300)
 
             else:
+
                 st.info("Інформація ще не додана.")

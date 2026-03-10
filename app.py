@@ -81,7 +81,7 @@ with tab2:
             if len(rooms) > 0:
 
                 # Робимо кнопки в кілька колонок (виглядає акуратніше)
-              #  cols = st.columns(1)
+                #cols = st.columns(4)
 
                 room_numbers = list(rooms.keys())
 
@@ -89,26 +89,23 @@ with tab2:
                     room_number = room_numbers[index]
                     room_info = rooms[room_number]
 
-                  #  col = cols[index % 4]
+                    #col = cols[index % 4]
 
-                   # with col:
-                 if st.button(room_number):
-                    st.subheader(f"{room_number} — {room_info['name']}")
-                    st.write("👩‍🏫 Вчитель:", room_info["teacher"])
-                    st.write("📝 Опис:", room_info["description"])
-                    image_path = os.path.join(BASE_DIR, room_info["photo"])
+                    #with col:
+                    if st.button(room_number):
+                        st.subheader(f"{room_number} — {room_info['name']}")
+                        st.write("👩‍🏫 Вчитель:", room_info["teacher"])
+                        st.write("📝 Опис:", room_info["description"])
+                        image_path = os.path.join(BASE_DIR, room_info["photo"])
 
 
-                            if room_info["photo"] != "":
-                                st.image(image_path, width=300)
+                        if room_info["photo"] != "":
+                            st.image(image_path, width=300)
                                # with st.expander("🔍 Переглянути фото повністю"):
                                 #    st.image(image_path,width="stretch")
 
             else:
                 st.info("Інформація ще не додана.")
-
-
-
 
 
 

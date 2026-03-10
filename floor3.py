@@ -31,14 +31,14 @@ floor_data = {
         "name": "кабінет історії",
         "teacher": "пані Ольга",
         "description": "кабінет Середньовіччя викладач та антураж",
-        "photo": "images/35.jpg"
+        "photo": "images/36.jpg"
     },
  "37": {
     
         "name": "кабінет англ мови",
         "teacher": "n\a",
         "description": "вінегрет 9,10,11",
-        "photo": "images/36.jpg"
+        "photo": "images/37.jpg"
     },
  "WC 3": {
       
@@ -48,3 +48,4 @@ floor_data = {
         "photo": "images/WC3.jpg"
     }
 }
+

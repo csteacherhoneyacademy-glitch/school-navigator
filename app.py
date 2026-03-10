@@ -81,7 +81,7 @@ with tab2:
             if len(rooms) > 0:
 
                 # Робимо кнопки в кілька колонок (виглядає акуратніше)
-                cols = st.columns(8)
+                cols = st.columns(1)
 
                 room_numbers = list(rooms.keys())
 
@@ -106,6 +106,7 @@ with tab2:
 
             else:
                 st.info("Інформація ще не додана.")
+
 
 
 

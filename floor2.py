@@ -1,48 +1,57 @@
-floor_data = {
+floor_2 = {
 "21": {
         "name": "Кабінет очильники",
         "teacher": "пані Вікторія, пані Анастасія",
         "description": "Головнокомандуючі",
-        "photo": "images/102.jpg"
+        "photo": "images/21.jpg"
     },
     "22": {
         "name": "Кабінет біології та хімії",
         "teacher": "пан Данило",
         "description": "В цьому кабінеті за кожне питання будьте готові заплатити 5 баксів",
-        "photo": "images/101.jpg"
+        "photo": "images/22.jpg"
     },
+"WC 2": {
+        "name": "Туалет",
+        "teacher": "для дівчат",
+        "description": "Жіноча кімната стратегічного планування",
+        "photo": "images/WC 2.jpg"
+    },
+
     "23": {
         "name": "Кабінет української мови та літератури",
         "teacher": "пані Христина",
         "description": " Місце де навіть стіни знають правила пані Христини",
-        "photo": "images/102.jpg"
+        "photo": "images/23.jpg"
     },
    "24": {
         "name": "Кабінет зарубіжної літератури",
         "teacher": "пані Іра",
-        "description": "місце де можно добре відпочити під різні твори",
-        "photo": "images/102.jpg"
+        "description": "Місце де можно добре відпочити під різні твори",
+        "photo": "images/24.jpg"
     },
   "25": {
         "name": "Кабінет фізики",
         "teacher": "пан Євген",
-        "description": "",
-        "photo": "images/102.jpg"
+        "description": "В цьому кабінеті не виживуть навіть криси",
+        "photo": "images/25.jpg"
     },
 "26": {
         "name": "Кабінет географії",
         "teacher": "пані Вікторія",
-        "description": "Шановний кабінет",
-        "photo": "images/102.jpg"
+        "description": "Шановна подорож по світу",
+        "photo": "images/26.jpg"
     },
 
 "27": {
         "name": "Вчительська",
         "teacher": "Всі вчителі нашого ліцею",
-        "description": "Шановний кабінет",
-        "photo": "images/102.jpg"
+        "description": "Аванпост",
+        "photo": "images/27.jpg"
     }
 
 }
+
+
 
 

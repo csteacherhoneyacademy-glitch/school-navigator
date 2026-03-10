@@ -92,11 +92,11 @@ with tab2:
                   #  col = cols[index % 4]
 
                    # with col:
-                        if st.button(room_number):
-                            st.subheader(f"{room_number} — {room_info['name']}")
-                            st.write("👩‍🏫 Вчитель:", room_info["teacher"])
-                            st.write("📝 Опис:", room_info["description"])
-                            image_path = os.path.join(BASE_DIR, room_info["photo"])
+                 if st.button(room_number):
+                    st.subheader(f"{room_number} — {room_info['name']}")
+                    st.write("👩‍🏫 Вчитель:", room_info["teacher"])
+                    st.write("📝 Опис:", room_info["description"])
+                    image_path = os.path.join(BASE_DIR, room_info["photo"])
 
 
                             if room_info["photo"] != "":
@@ -106,6 +106,7 @@ with tab2:
 
             else:
                 st.info("Інформація ще не додана.")
+
 
 
 

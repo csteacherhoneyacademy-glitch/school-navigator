@@ -8,7 +8,7 @@ floor_data = {
     "41": {
         "name": "Accounting department",
         "teacher": "n/a",
-        "description": "незвідана зона відчуження",
+        "description": "Незвідана зона відчуження - тут рахують гроші",
         "photo": "images/41.jpg"
     },
  "43": {
@@ -20,25 +20,25 @@ floor_data = {
 "44": {
         "name": "Foreign language",
         "teacher": "n/a",
-        "description": "незвідана зона вітчуження",
+        "description": "Незвідана зона вітчуження",
         "photo": "images/44.jpg"
     },
 "45": {
         "name": "Foreign language",
         "teacher": "Пан Олексій",
-        "description": "незвідана зона вітчуження",
+        "description": "Незвідана зона вітчуження",
         "photo": "images/45.jpg"
     },
 "46": {
         "name": "Multiperpose room",
         "teacher": "n/a",
-        "description": "незвідана зона вітчуження",
+        "description": "Незвідана зона вітчуження - тут займаються різними справами",
         "photo": "images/46.jpg"
     },
 "47": {
         "name": "HR department",
         "teacher": "n/a",
-        "description": "незвідана зона вітчуження",
+        "description": "Незвідана зона вітчуження - тут знаходяться люди, які знають все про наших викладачів",
         "photo": "images/47.jpg"
     },
 "WC4": {
@@ -47,6 +47,7 @@ floor_data = {
         "description": "місце збору",
         "photo": "images/WC4.jpg"}
     }
+
 
 
 

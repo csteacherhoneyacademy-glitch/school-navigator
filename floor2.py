@@ -1,6 +1,6 @@
 floor_data = {
 "21": {
-    "name": "Кабінет очильники",
+        "name": "Кабінет очильники",
         "teacher": "пані Вікторія, пані Анастасія",
         "description": "Головнокомандуючі",
         "photo": "images/21.jpg"
@@ -15,7 +15,7 @@ floor_data = {
         "name": "Туалет",
         "teacher": "для дівчат",
         "description": "Жіноча кімната стратегічного планування",
-        "photo": "images/WC 2.jpg"
+        "photo": "images/WC2.jpg"
     },
 
     "23": {
@@ -51,6 +51,7 @@ floor_data = {
     }
 
 }
+
 
 
 

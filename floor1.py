@@ -1,15 +1,49 @@
 floor_data = {
-    "101": {
-        "name": "1",
+    "Актовий зал": {
+        "name": "Актовий Зал",
         "teacher": "N/A",
-        "description": "1",
-        "photo": "images/101.jpg"
+        "description": "Виступи",
+        "photo": "act.jpg"
     },
-    "102": {
-        "name": "2",
-        "teacher": "2",
-        "description": "2",
-        "photo": "images/102.jpg"
+    "Роздягальня": {
+        "name": "Роздягальня",
+        "teacher": "N/A",
+        "description": "Там перевдягаються",
+        "photo": "dressing.jpg"
+    }
+
+
+  ,
+    "Радіо": {
+        "name": "Радіо",
+        "teacher": "N/A",
+        "description": "Ведутся радіотрансляції",
+        "photo": "radio.jpg"
+    }
+
+
+  ,
+    "Їдальня і сховище": {
+        "name": "Їдальня і сховище",
+        "teacher": "2-3",
+        "description": "Там їдять і перевдягаються",
+        "photo": "dining.jpg"
+    }
+
+
+  ,
+    "Кафе": {
+        "name": "Кафе",
+        "teacher": "1-2",
+        "description": "Там можна поїсти",
+        "photo": "cafe.jpg"
+    }
+
+  ,
+    "Рецепція": {
+        "name": "Рецепція",
+        "teacher": "1",
+        "description": "Там сидить адміністратор і зберігає аптечку",
+        "photo": "reception.jpg"
     }
 }
-

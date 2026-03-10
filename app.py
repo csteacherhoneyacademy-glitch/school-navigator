@@ -81,7 +81,7 @@ with tab2:
             if len(rooms) > 0:
 
                 # Робимо кнопки в кілька колонок (виглядає акуратніше)
-                cols = st.columns(1)
+              #  cols = st.columns(1)
 
                 room_numbers = list(rooms.keys())
 
@@ -89,9 +89,9 @@ with tab2:
                     room_number = room_numbers[index]
                     room_info = rooms[room_number]
 
-                    col = cols[index % 4]
+                  #  col = cols[index % 4]
 
-                    with col:
+                   # with col:
                         if st.button(room_number):
                             st.subheader(f"{room_number} — {room_info['name']}")
                             st.write("👩‍🏫 Вчитель:", room_info["teacher"])
@@ -106,6 +106,7 @@ with tab2:
 
             else:
                 st.info("Інформація ще не додана.")
+
 
 
 

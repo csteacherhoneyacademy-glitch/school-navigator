@@ -8,7 +8,7 @@ import os
 BASE_DIR = os.path.dirname(__file__)
 
 st.title("🏫 Навігатор школи")
-st.image("BASE_DIR/school.jpg", caption="Наша школа", width=800)
+st.image("images/school.jpg", caption="Наша школа", width=800)
 st.divider()
 
 floors = {
@@ -106,4 +106,5 @@ with tab2:
 
             else:
                 st.info("Інформація ще не додана.")
+
 

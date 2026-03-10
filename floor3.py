@@ -2,7 +2,7 @@ floor_data = {
  "31": {
         "name": "Foreign language",
         "teacher": "Хто завгодно",
-        "description": "тут ми вчимо англійську",
+        "description": "Тут ми вчимо англійську",
         "photo": "images/31.jpg"
 
           },
@@ -10,42 +10,43 @@ floor_data = {
     "32": {
         "name":"кабінет інформатики",
         "teacher": "вчителі інформатики",
-        "description": "каінет 11- випускників 15",
+        "description": "Кабінет, де панують технології. А ще тут панує 11А",
         "photo": "images/32.jpg"
 
           },
     "33": {
       "name":"кабінет математики",
         "teacher": "пані Анна",
-        "description": "ворота в пекло",
+        "description": "Ворота в пекло",
         "photo": "images/33.jpg"
     },
  "35": { 
      
          "name": "кабінет математики",
         "teacher": "Пані Марія",  
-         "description": "каторжна зона",
+         "description": "Каторжна зона",
         "photo": "images/35.jpg"
     },
  "36": {
         "name": "кабінет історії",
         "teacher": "пані Ольга",
-        "description": "кабінет Середньовіччя викладач та антураж",
+        "description": "Кабінет Середньовіччя викладач та антураж",
         "photo": "images/36.jpg"
     },
  "37": {
     
         "name": "кабінет англ мови",
         "teacher": "n\a",
-        "description": "вінегрет 9,10,11",
+        "description": "Вінегрет 9,10,11",
         "photo": "images/37.jpg"
     },
  "WC 3": {
       
         "name": "туалет чоловічий",
         "teacher": "n\a",
-        "description": "точка збору пліток",
+        "description": "Точка збору пліток і обговорення важливих чоловічих справ",
         "photo": "images/WC3.jpg"
     }
 }
+
 

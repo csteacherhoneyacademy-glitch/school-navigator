@@ -14,7 +14,7 @@ floor_data = {
  "43": {
         "name": "Foreign language",
         "teacher": "Elijah Obiefuleh",
-        "description": "Реанімаційна”,
+        "description": "Реанімаційна",
         "photo": "images/43.jpg"
     },
 "44": {
@@ -34,16 +34,21 @@ floor_data = {
         "teacher": "n/a",
         "description": "незвідана зона вітчуження",
         "photo": "images/46.jpg"
-    }
+    },
 "47": {
         "name": "HR department",
         "teacher": "n/a",
         "description": "незвідана зона вітчуження",
         "photo": "images/47.jpg"
-    }
+    },
 "WC4": {
-        "name": "WC",
+        "name": "WC4",
         "teacher": "n/a",
         "description": "місце збору",
-        "photo": "images/WC4.jpg"
+        "photo": "images/WC4.jpg"}
+    }
+
+
+
+
 

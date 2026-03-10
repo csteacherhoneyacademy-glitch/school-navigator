@@ -3,8 +3,14 @@ from floor1 import floor_data as floor1
 from floor2 import floor_data as floor2
 from floor3 import floor_data as floor3
 from floor4 import floor_data as floor4
+import os
+
+BASE_DIR = os.path.dirname(__file__)
 
 st.title("🏫 Навігатор школи")
+st.image("images/school.jpg", caption="Наша школа", width=800)
+st.divider()
+
 floors = {
     "1 поверх": floor1,
     "2 поверх": floor2,
@@ -16,7 +22,7 @@ tab1, tab2 = st.tabs(["🔎 Пошук", "🗺 Поверхи"])
 
 
 with tab1:
-
+    
     st.header("Пошук кабінету")
 
     room_number = st.text_input("Введіть номер кабінету:")
@@ -49,8 +55,8 @@ with tab1:
         if found == False:
             st.error("Такого кабінету немає.")
 
-    st.divider()
-  #  st.image("images/school.jpg", caption="Наша школа", width=400)
+    
+    
 
 
 with tab2:
@@ -90,10 +96,13 @@ with tab2:
                             st.subheader(f"{room_number} — {room_info['name']}")
                             st.write("👩‍🏫 Вчитель:", room_info["teacher"])
                             st.write("📝 Опис:", room_info["description"])
+                            image_path = os.path.join(BASE_DIR, room_info["photo"])
+
 
                             if room_info["photo"] != "":
-                                st.image(room_info["photo"], width=300)
+                                st.image(image_path, width=300)
+                               # with st.expander("🔍 Переглянути фото повністю"):
+                                #    st.image(image_path,width="stretch")
 
             else:
-
                 st.info("Інформація ще не додана.")

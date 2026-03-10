@@ -15,7 +15,7 @@ floor_2 = {
         "name": "Туалет",
         "teacher": "для дівчат",
         "description": "Жіноча кімната стратегічного планування",
-        "photo": "images/WC 2.jpg"
+        "photo": "images/WC2.jpg"
     },
 
     "23": {
@@ -51,6 +51,7 @@ floor_2 = {
     }
 
 }
+
 
 
 

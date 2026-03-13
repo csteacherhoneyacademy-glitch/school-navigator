@@ -20,25 +20,32 @@ floor_data = {
         "description": "Ворота в пекло",
         "photo": "images/33.jpg"
     },
- "35": { 
+ "34": { 
      
          "name": "кабінет математики",
         "teacher": "Пані Марія",  
          "description": "Каторжна зона",
-        "photo": "images/35.jpg"
+        "photo": "images/34.jpg"
     },
- "36": {
+ "35": {
         "name": "кабінет історії",
         "teacher": "пані Ольга",
         "description": "Кабінет Середньовіччя викладач та антураж",
-        "photo": "images/36.jpg"
+        "photo": "images/35.jpg"
     },
- "37": {
+ "36": {
     
         "name": "кабінет англ мови",
         "teacher": "n\a",
         "description": "Вінегрет 9,10,11",
-        "photo": "images/37.jpg"
+        "photo": "images/36.jpg"
+    },
+ "38": {
+    
+        "name": "кабінет англ мови",
+        "teacher": "n\a",
+        "description": "Вінегрет 9,10,11",
+        "photo": "images/38.jpg"
     },
  "WC 3": {
       
@@ -48,5 +55,6 @@ floor_data = {
         "photo": "images/WC3.jpg"
     }
 }
+
 
 

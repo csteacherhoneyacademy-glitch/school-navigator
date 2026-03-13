@@ -3,13 +3,13 @@ floor_data = {
         "name": "Актовий Зал",
         "teacher": "N/A",
         "description": "Виступи",
-        "photo": "act.jpg"
+        "photo": "1.jpg"
     },
     "Роздягальня": {
         "name": "Роздягальня",
         "teacher": "N/A",
         "description": "Там перевдягаються",
-        "photo": "dressing.jpg"
+        "photo": "2.jpg"
     }
 
 
@@ -18,7 +18,7 @@ floor_data = {
         "name": "Радіо",
         "teacher": "N/A",
         "description": "Ведутся радіотрансляції",
-        "photo": "radio.jpg"
+        "photo": "3.jpg"
     }
 
 
@@ -47,3 +47,4 @@ floor_data = {
         "photo": "reception.jpg"
     }
 }
+
